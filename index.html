@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A192F">
+  <meta name="description" content="House of J&S Computer Training Center · Inspire Computing Year 9 bilingual learning portal">
+  <title>House of J&amp;S | Year 9 Computing Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body class="portal-locked">
+  <!-- Student portal login gate: single-panel design -->
+  <section class="portal-login-screen login-v2" id="portal-login-screen" aria-labelledby="portal-login-title">
+    <div class="login-v2-backdrop" aria-hidden="true">
+      <span class="login-v2-orbit login-v2-orbit-a"></span>
+      <span class="login-v2-orbit login-v2-orbit-b"></span>
+      <span class="login-v2-glow"></span>
+    </div>
+    <div class="login-v2-content">
+      <main class="login-v2-card">
+        <div class="login-v2-goldline" aria-hidden="true"></div>
+        <div class="login-v2-card-inner">
+          <header class="login-v2-header">
+            <img class="login-v2-logo" src="assets/logo1.png" alt="House of J&S Computer Training Center logo">
+            <div class="login-v2-brandline"><span></span> HOUSE OF J&amp;S · STUDENT PORTAL <span></span></div>
+            <p class="login-v2-course">INSPIRE COMPUTING <b>YEAR 9</b></p>
+            <h1 id="portal-login-title">Student Login</h1>
+            <p class="login-v2-intro">Sign in to continue your learning journey.</p>
+            <p class="mm login-v2-intro-mm">သင်ခန်းစာများကို ဆက်လက်လေ့လာရန် အကောင့်ဝင်ပါ။</p>
+          </header>
+
+          <form id="portal-login-form" class="portal-login-form login-v2-form" novalidate>
+            <div class="login-v2-field">
+              <label for="portal-login-name">Student name <span>ကျောင်းသားအမည်</span></label>
+              <div class="portal-input-wrap login-v2-input-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.4"></circle><path d="M5.2 19c.5-3.1 2.8-4.8 6.8-4.8s6.3 1.7 6.8 4.8"></path></svg>
+                <input id="portal-login-name" name="studentName" type="text" autocomplete="name" maxlength="80" placeholder="Enter your full name" required>
+              </div>
+            </div>
+            <div class="login-v2-field">
+              <label for="portal-login-password">Access password <span>ဝင်ခွင့်စကားဝှက်</span></label>
+              <div class="portal-input-wrap login-v2-input-wrap">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v2"></path></svg>
+                <input id="portal-login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+                <button type="button" id="portal-toggle-password" class="portal-show-password" aria-label="Show password">Show</button>
+              </div>
+            </div>
+            <p class="portal-login-error login-v2-error" id="portal-login-error" role="alert" aria-live="polite"></p>
+            <button class="portal-sign-in-button login-v2-submit" type="submit">Enter Learning Portal <span aria-hidden="true">→</span></button>
+          </form>
+
+          <div class="login-v2-assist">
+            <span class="login-v2-assist-icon" aria-hidden="true">i</span>
+            <p>Use the student access password provided by your teacher.<br><span class="mm">ဆရာ/ဆရာမ ပေးထားသော ဝင်ခွင့်စကားဝှက်ကို အသုံးပြုပါ။</span></p>
+          </div>
+          <footer class="login-v2-footer">
+            <span>© House of J&amp;S Computer Training Center</span>
+            <span class="login-v2-offline"><i></i> OFFLINE READY</span>
+          </footer>
+        </div>
+      </main>
+      <div class="login-v2-benefits" aria-label="Portal features">
+        <span><b>06</b> Learning Units</span>
+        <i></i><span><b>EN + MM</b> Bilingual Lessons</span>
+        <i></i><span><b>OFFLINE</b> Local Access</span>
+      </div>
+      <p class="login-v2-bottom-note">LEARN · PRACTISE · ACHIEVE</p>
+    </div>
+  </section>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-lockup">
+        <img src="assets/logo1.png" alt="House of J&amp;S Logo" onerror="this.onerror=null;this.src='assets/logo-fallback.svg'">
+        <div class="brand-copy"><b>HOUSE OF J&amp;S</b><span>COMPUTER TRAINING CENTER</span></div>
+      </div>
+      <div class="sidebar-divider"></div>
+      <div class="nav-caption">LEARNING SPACE</div>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <button class="nav-link active" data-page="dashboard"><span class="nav-symbol">◫</span><span>Dashboard</span></button>
+        <button class="nav-link" data-page="units"><span class="nav-symbol">▦</span><span>Course units</span><i>06</i></button>
+        <button class="nav-link" data-page="glossary"><span class="nav-symbol">Aa</span><span>Master glossary</span></button>
+        <button class="nav-link" data-page="answers"><span class="nav-symbol">▤</span><span>Workbook answers</span></button>
+      </nav>
+      <div class="nav-caption nav-caption-spaced">ASSESSMENT</div>
+      <nav class="primary-nav">
+        <button class="nav-link" data-page="history"><span class="nav-symbol">◷</span><span>Exam history</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-rule"></div>
+        <div class="offline-indicator"><span></span><div><b>Offline ready</b><small>Local learning portal</small></div></div>
+        <div class="sidebar-year">INSPIRE COMPUTING <b>YEAR 9</b></div>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left"><button class="icon-button mobile-only" id="mobile-menu" aria-label="Open navigation">☰</button><div><div class="breadcrumb">HOUSE OF J&amp;S <span>/</span> <b id="page-title">Learning dashboard</b></div><div class="topbar-subtitle">Bilingual learning portal <span>·</span> English + Myanmar</div></div></div>
+        <div class="topbar-actions"><label class="global-search-wrap"><span>⌕</span><input id="global-search" type="search" placeholder="Search lesson, term…" aria-label="Search lessons and terms"><kbd>ENTER</kbd></label><button class="language-button" id="language-toggle" title="Emphasise Myanmar text">EN + MM</button><div class="profile-tools"><span id="portal-profile-name">Student</span><div class="profile-mark" id="portal-profile-initials">JS</div><button class="portal-logout-button" id="portal-logout" type="button" title="Log out">Log out</button></div></div>
+      </header>
+      <main class="main-view" id="main-view" tabindex="-1"></main>
+      <footer class="app-footer"><span>© House of J&amp;S Computer Training Center</span><span>INSPIRE COMPUTING · YEAR 9 <b>●</b> OFFLINE PORTAL</span></footer>
+    </div>
+  </div>
+  <script src="js/modules.js"></script>
+  <script src="js/workbook-answers.js"></script>
+  <script src="js/answer-renderer.js"></script>
+  <script src="js/quizzes.js"></script>
+  <script src="js/examinations.js"></script>
+  <script src="js/lesson-visuals.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/portal-auth.js"></script>
+</body>
+</html>

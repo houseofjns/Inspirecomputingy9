@@ -1,0 +1,44 @@
+{
+  "year": 9,
+  "units": 6,
+  "lesson_groups": [
+    8,
+    7,
+    8,
+    10,
+    8,
+    8
+  ],
+  "total_lesson_groups": 49,
+  "terms_per_unit": [
+    34,
+    34,
+    35,
+    34,
+    34,
+    34
+  ],
+  "answer_entries": 55,
+  "lesson_answer_entries": 49,
+  "end_of_unit_answer_entries": 6,
+  "visual_blocks": 52,
+  "visual_types": {
+    "code": 8,
+    "flow": 14,
+    "graph": 2,
+    "layers": 3,
+    "table": 25
+  },
+  "pdf_sources_in_zip": false,
+  "exam_structure_per_unit": {
+    "A": 30,
+    "B": 20,
+    "C": 20,
+    "D": 10,
+    "E": 4,
+    "questions": 84,
+    "marks": 100,
+    "minutes": 60
+  },
+  "full_browser_interaction_test": false
+}

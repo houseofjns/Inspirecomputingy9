@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="76" viewBox="0 0 220 76">
+ <rect width="220" height="76" rx="12" fill="#0A192F"/>
+ <path d="M15 15h46v46H15z" fill="none" stroke="#D4AF37" stroke-width="2"/>
+ <path d="M26 25v26m0-13h24m0-13v26" fill="none" stroke="#F7F3E8" stroke-width="3" stroke-linecap="round"/>
+ <text x="74" y="34" fill="#F6E7B1" font-size="18" font-weight="700" font-family="Georgia,serif">HOUSE OF J&amp;S</text>
+ <text x="74" y="52" fill="#E6EAF0" font-size="8" letter-spacing="1.2" font-family="Arial,sans-serif">COMPUTER TRAINING CENTER</text>
+</svg>
